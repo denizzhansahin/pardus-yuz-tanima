@@ -1,0 +1,10 @@
+#!/bin/bash
+cd ~
+printf "Bu özellik ile sadece veri tabanı ve kurulum bilgileri silinecektir. \n"
+
+sudo rm -fr .kamera_giris/hatali_giris
+sudo rm -fr .kamera_giris
+sudo rm -fr .kamera_kayit
+
+
+sudo rm .pardus_yuz_tanima.sqlite 

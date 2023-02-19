@@ -1,0 +1,17 @@
+Bu uygulamanın kurulumu sırasında KULLANICI ŞİFRENİZİ tekrar yazmanız istenebilir
+Bu uygulamayı kurmak için İNTERNET BAĞLANTISI gerekir.
+
+Uygulama kurulum kodu: bash pardus-yuz-tanima-kurulum
+
+
+NASIL KULLANIRIM?
+
+Yukarıdaki komut ile uygulamayı kurun.
+Bir yüz verisi sisteme kaydetmek için çalıştırın : pardus-yuz-tanima
+
+
+UYGULAMAYI KURDUKTAN SONRA KULLANABİLECEĞİNİZ KOMUTLAR
+Uygulama açma komudu :        pardus-yuz-tanima
+Giris ekranı açma komudu :    pardus-yuz-tanima-giris
+Kişisel bilgileri silme komudu (eğer bu dizin içinde iseniz) :     bash pardus-yuz-tanima-silme
+Uygulama silme komudu :       sudo apt-get remove pardus-yuz-tanima

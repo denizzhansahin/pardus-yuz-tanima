@@ -1,0 +1,52 @@
+#!/bin/bash
+printf "Merhaba, Pardus Yüz Tanima uygulamasına hoşgeldiniz.\n"
+
+printf "Bu uygulamayı kurmak için KULLANICI ŞİFRENİZİ yazınız.\n"
+printf "Bu uygulamanın kurulumu sırasında KULLANICI ŞİFRENİZİ tekrar yazmanız istenebilir.\n"
+printf "Bu uygulamayı kurmak için İNTERNET BAĞLANTISI gerekir.\n"
+
+#paket kurulumu
+printf "\n"
+printf "Gerekli paketler kuruluyor.\n"
+
+
+sudo apt-get install python3-pip
+sudo apt-get install python3-pyqt5
+sudo apt-get install python3-opencv
+
+printf "\n"
+printf "\n"
+
+
+
+#kütüphane kurulumu
+printf "\n"
+printf "Gerekli kütüphaneler kuruluyor.\n"
+
+pip3 install --upgrade pip
+pip install tensorflow
+pip install retina-face
+pip install deepface
+
+printf "\n"
+printf "\n"
+
+
+#uygulama kurulumu
+printf "\n"
+printf "Pardus Yüz Tanıma kuruluyor.\n"
+
+
+sudo dpkg -i pardus-yuz-tanima.deb
+
+printf "\n"
+printf "\n"
+
+
+#uygulama tanıtımı
+printf "\n"
+printf "Uygulama açma komudu :     pardus-yuz-tanima \n"
+printf "Giris ekranı açma komudu : pardus-yuz-tanima-giris \n"
+printf "Kişisel bilgileri silme komudu (eğer bu dizin içinde iseniz) : bash pardus-yuz-tanima-silme \n"
+printf "Uygulama silme komudu : sudo apt-get remove pardus-yuz-tanima \n"
+printf "\n"

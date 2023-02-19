@@ -1,0 +1,7 @@
+Package: pardus-yuz-tanima    
+Version: 1.1
+Section: base
+Priority: optional
+Architecture: amd64
+Maintainer: Denizhan Sahin <denizhsansahin@yaani.com>
+Description: Denizhan Sahin.
