@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~
+
+echo MERHABA , PARDUS YUZ TANIMA UYGULAMASINA HOŞGELDİNİZ!
+
+/bin/python3 /usr/local/bin/python/PardusYuzTanima/kurulum.py

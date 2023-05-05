@@ -1,0 +1,8 @@
+Package: pardus-yuz-tanima    
+Version: 1.2
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Denizhan Sahin
+Description: Denizhan Sahin. www.denizhansahin.com
+Depends : python3-pip, python3-pyqt5, python3-opencv

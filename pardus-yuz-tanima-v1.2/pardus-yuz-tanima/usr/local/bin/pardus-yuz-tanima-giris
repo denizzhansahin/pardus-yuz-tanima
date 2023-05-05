@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~
+/usr/bin/python3 /usr/local/bin/python/PardusYuzTanima/Giris-1-Kamera/kamera.py

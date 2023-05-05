@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.2
+Name=Pardus Yüz Tanıma
+Encoding=UTF-8
+Comment=Desktop Application
+Exec=/usr/local/bin/pardus-yuz-tanima-giris
+Icon=/usr/local/bin/icons/pardus_yuz.svg
+Terminal=false
+Type=Application
+Categories=Development
